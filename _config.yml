@@ -1,0 +1,42 @@
+# Site settings
+title: My Portfolio
+email: your-email@example.com
+description: >-
+  Welcome to my portfolio! Here you can find my projects, skills, and experience.
+  I'm passionate about creating amazing things with code.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Social media usernames (optional)
+github_username: yourusername
+linkedin_username: yourusername
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections for portfolio items
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Default settings
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
