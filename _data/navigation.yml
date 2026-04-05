@@ -237,17 +237,13 @@ en-ZW: #English (Zimbabwe)
 # -------
 es: &DEFAULT_ES
   nav:
-    - title: "Servicios"
-      section: servicios
-    - title: "Portafolio"
-      section: portafolio
-    - title: "Sobre Nosotros"
-      section: nosotros
-    - title: "Cronología"
-      section: cronologia
-    - title: "Equipo"
-      section: equipo
-    - title: "Contáctenos"
+    - title: "Mes Projets"
+      url: /projets/
+    - title: "Compétences"
+      url: /competences/
+    - title: "Ma Vision"
+      url: /vision/
+    - title: "Contact"
       section: contacto
     - title: "Fuente de la plantilla"
       url: https://github.com/raviriley/agency-jekyll-theme/
@@ -336,5 +332,16 @@ de-IT: #German (Italy)
   <<: *DEFAULT_DE
 de-LI: #German (Liechtenstein)
   <<: *DEFAULT_DE
-de-LU: #German (Luxembourg)
-  <<: *DEFAULT_DE
+
+# French (France)
+fr-FR: &DEFAULT_FR
+  nav:
+    - title: "Mes Projets"
+      url: /projets/
+    - title: "Compétences"
+      url: /competences/
+    - title: "Ma Vision"
+      url: /vision/
+    - title: "Contact"
+      section: contact
+

@@ -57,6 +57,7 @@
       .nav-item {
         .nav-link {
           padding: 1.1em 1em !important;
+          color: $primary;
         }
       }
     }
@@ -67,6 +68,9 @@
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
+      }
+      .navbar-nav .nav-item .nav-link {
+        color: white;
       }
     }
   }
